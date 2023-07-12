@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+body {
+
+    width: 100%;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 97%);
+    height: 20vh;
+}
+a {
+    text-decoration: none;
+}
+.first {
+    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%) );
+    height: 500px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 35px;
+    text-align: center;
+}
+.circle h1 {
+    padding: 40px 70px 0;
+    color: hsla(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 60px;
+}
+.circle h5 {
+    padding: 0 50px 30px;
+    color: hsla(0, 0%, 100%, 0.4);
+}
+.first h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+.first p {
+    color: hsl(0, 0%, 100%, 0.6);
+    font-size: 17px;
+    padding: 0 60px;
+}
+.first h4 {
+    color: hsl(0, 0%, 100%, 0.7);
+    margin-top: 40px;
+    font-size: 20px;
+}
+.second {
+    background-color:  hsl(0, 0%, 100%);
+}
+.second::before {
+    content: "";
+    width: 40px;
+    height: 100%;
+    background-color: white;
+}
+.empty {
+    width:40px;
+    height: 66vh;
+    background-color: white;
+    position: absolute;
+    z-index: -2;
+    left: 350px;
+}
+.circle {
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.container {
+    height: 100%;
+    text-align: center;
+}
+.second {
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.second h2 {
+    text-align: start;
+    color: (224, 30%, 27%);
+    margin-left: 50px;
+}
+.second a {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px calc(140px - 40px) ;
+    border-radius: 30px;
+    margin-bottom: -10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-align: center;
+}
+.red,
+.orange,
+.green,
+.purple {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.red {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.red h4:first-of-type {
+    margin-right: 60px;
+}
+.orange h4:first-of-type {
+    margin-right: 60px;
+}
+.green h4:first-of-type {
+    margin-right: 60px;
+}
+.purple h4:first-of-type {
+    margin-right: 60px;
+}
+.red h4:last-child,
+.orange h4:last-child,
+.green h4:last-child,
+.purple h4:last-child {
+    color: hsl(224, 30%, 27%);
+}
+.orange {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.green {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.purple {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+    margin-bottom: 55px;
+}
+.red span,
+.orange span,
+.green span,
+.purple span {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+.container .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 20%;
+    margin-left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -30%);
+    -webkit-transform: translate(-50%, -30%);
+    -moz-transform: translate(-50%, -30%);
+    -ms-transform: translate(-50%, -30%);
+    -o-transform: translate(-50%, -30%);
+}
